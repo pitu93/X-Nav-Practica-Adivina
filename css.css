@@ -1,0 +1,32 @@
+#map
+{
+    height: 250px;
+    float:right
+}
+
+#fot
+{
+    border-radius: 15px
+    height: 250px;
+}
+
+p#result{
+    background: #6495ED;
+  position:relative;
+  margin-left:40px ;
+  width: 380px;
+  height: 150px;
+  border-radius: 15px; 
+   color:white;
+    font-size:22px;
+    font-family: "georgia";
+    padding: 16px;
+}
+
+#final{
+    color:#1E90FF;
+    font-size:40px;
+    font-family: "georgia";
+    float: right;
+
+}

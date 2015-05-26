@@ -1,0 +1,73 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+         {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.174167,
+                    78.042222
+                ]
+            },
+            "properties": {
+                "name": "Taj Mahal"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    43.723056,
+                    10.396417
+                ]
+            },
+            "properties": {
+                "name": "Torre de Pisa"
+
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -13.163056,
+                    -72.545556
+                ]
+            },
+            "properties": {
+                "name": "Machu Picchu"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    40.689167,
+                    -74.0444
+                ]
+            },
+            "properties": {
+                "name": "Estatua de la Liberad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    40.416667,
+                    116.083333
+                ]
+            },
+            "properties": {
+                "name": "Muralla China"
+            }
+        }
+       
+    ]
+        
+}
