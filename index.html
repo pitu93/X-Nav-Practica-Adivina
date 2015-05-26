@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Practica final DAT</title>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="justified.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css.css">
+
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="adivina.js"></script>
+
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="masthead">
+        <h3 class="text-muted"> ¡¡Adivina dónde está!! Práctica final DAT Alejandro Lorenzo Caro</h3>
+        <nav>
+          <ul id ='panel' class="nav nav-justified">
+            <li><a id='nuevo' >Nuevo juego</a></li>
+            <li ><a id='iniciar' >Empezar juego</a></li>            
+            <li><a id='abortar'>Abortar juego</a></li> 
+            <li><a id='historial'>Historial</a></li>          
+          </ul>
+        </nav>
+      </div>
+
+      <div id="dificultad" class = "col-md-3">
+                  <h5>Dificultad</h5>
+                  <select id="dificultad" class="form-control">
+                    <option value="8000">Baja</option>
+                    <option value="5000">Media</option>
+                    <option value="2000">Alta</option>
+                  </select>            
+     </div> 
+    <div id="juegos" class = "col-md-4">
+                  <h5>Juegos</h5>
+                  <select id="juegos" class="form-control">
+                    <option value="Capital.json">Capitales</option>
+                    <option value="Equipos.json">Equipos</option>
+                    <option value="Lugares.json">Lugares</option>
+                  </select>            
+     </div> 
+    <div id="historial1" class = "col-md-5">
+    <h5>Historial</h5>
+                             
+     </div> 
+    
+
+      <div class="jumbotron">
+        <h1>¡¡Adivina dónde está!!</h1>
+        <p class="lead">Adivina dónde está es un divertido juego que consiste en localizar en el mapa el lugar del que están saliendo fotografías</p>
+        <p><button class="btn btn-lg btn-success"  id='empieza'>¡Juega!</button></p>
+      </div>
+        <br>
+      <div class="row ">
+        <div id='fotos' class = "col-lg-6 hidden-xs" >
+          <h2 id = 'solu' >Foto</h2>
+          
+        </div>
+        <div class="col-lg-6 hidden-xs">
+            <h2 id = 'solu2'>Mapa</h2>
+        </div>
+    
+        
+      </div>
+
+         <div id='map' class="col-lg-6 col-xs-6"></div>
+        <div id = 'fot' ><img  class="col-lg-6 col-xs-6" src='foto1.jpg' ></div>
+
+
+     
+    </div>
+
+  </body>
+</html>
+
